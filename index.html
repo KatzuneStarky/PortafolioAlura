@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portafolio</title>
+        <!-- ⁡⁣⁢⁣𝗖⁡⁡⁣⁢⁣𝗦𝗦 𝗜𝗺𝗽𝗼𝗿𝘁𝗮𝘁𝗶𝗼𝗻⁡ -->
+        <link href="
+            https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css
+        " rel="stylesheet">
+        <link rel="stylesheet" href="styles/global.styles.css">
+        <link rel="stylesheet" href="styles/banner.component.css">
+        <link rel="stylesheet" href="styles/aboutMe.component.css">
+        <link rel="stylesheet" href="styles/skills.component.css">
+        <link rel="stylesheet" href="styles/hobbies.component.css">
+        <link rel="stylesheet" href="styles/formation.component.css">
+        <link rel="stylesheet" href="styles/projects.componet.css">
+        <link rel="stylesheet" href="styles/responsive.component.css">
+        <link rel="stylesheet" href="styles/dayNight.component.css">
+    </head>
+    <body>
+        <!-- ⁡⁢⁣⁣𝗕𝗮𝗻𝗻𝗲𝗿 𝗦𝗲𝗰𝘁𝗶𝗼𝗻⁡ -->
+        <section class="banner">
+            <header>
+                <a href="" class="logo">
+                    <img src="images/Google-Noto-Emoji-Animals-Nature-22218-fox-face.svg" alt="">
+                    <span>My</span>
+                    Portfolio
+                </a>
+                <ul class="menu">
+                    <li class="menu__item">
+                        <a href="#aboutMe" class="menu__item-link">About</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#skils" class="menu__item-link">Skils</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#hobbies" class="menu__item-link">Hobbies</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#formation" class="menu__item-link">Formation</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#projects" class="menu__item-link">Projects</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="mailto:aramirez_17@alu.uabcs.mx" target="_blank" class="menu__item-link">Mail me</a>
+                    </li>
+                </ul>
+            </header>
+            <div class="content">
+                <h3 class="content__title">Hey_</h3>
+                <h2 class="content__subtitle">
+                    I'am
+                    <span id="text"></span>
+                </h2>
+                <p class="content__text">Software developer dedicated to the frontend area with ReactJs</p>
+                <a href="pages/pdfViewer.html" class="content__button">Curriculum</a>
+                <a class="content__button chat">
+                    <ion-icon name="chatbubbles"></ion-icon>
+                    Let's chat
+                </a>
+            </div>
+            <img src="images/photo.jpg" class="me" alt="">
+            <ul class="banner__social">
+                <li class="banner__social-item">
+                    <a href="https://www.linkedin.com/in/adanramirezcinseros/" target="_blank" rel="noopener">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </li>
+                <li class="banner__social-item">
+                    <a href="https://github.com/KatzuneStarky" target="_blank" rel="noopener">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                </li>
+                <li class="banner__social-item">
+                    <a href="https://api.whatsapp.com/send?phone=6123050906" target="_blank" rel="noopener">
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                    </a>
+                </li>
+                <li class="banner__social-item">
+                    <a href="https://www.facebook.com/KatzuneStarky/" rel="noopener" target="_blank">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                </li>
+            </ul>
+            <div class="dayNight">
+                <ion-icon name="moon"></ion-icon>
+                <ion-icon name="sunny"></ion-icon>
+            </div>
+        </section>
+        <section class="aboutMe" id="aboutMe">
+            <div class="about_contents">
+                <section class="imageSection">
+                    <lottie-player
+                        src="https://assets6.lottiefiles.com/packages/lf20_kyu7xb1v.json"
+                        background="transparent"
+                        speed="1"
+                        loop
+                        autoplay
+                    ></lottie-player>
+                </section>
+                <section class="infoSection">
+                    <h1 class="infoSection__title">About Me</h1>
+                    <h2 class="infoSection__subtitle">Frontend Developer</h2>
+                    <p class="infoSection__text">
+                        My name is Adan Ramirez, Software Development Engineer focused on web programming on the frontend side with ReactJs, I am currently learning NextJs and TypeScript, I also like to be self-taught to be prepared for any situation
+                    </p>
+                    <div class="infoSection__personalInfo">
+                        <div class="infoSection__personalInfo-info">
+                            <span>Name:</span>
+                            <span>Adan Ramirez</span>
+                        </div>
+                        <div class="infoSection__personalInfo-info">
+                            <span>Age:</span>
+                            <span>24</span>
+                        </div>
+                        <div class="infoSection__personalInfo-info">
+                            <span>Email:</span>
+                            <span>aramirez_17@alu.uabcs.mx</span>
+                        </div>
+                        <div class="infoSection__personalInfo-info">
+                            <span>Location:</span>
+                            <span>La Paz, BCS</span>
+                        </div>
+                    </div>
+                    <div class="infoSection__button">
+                        <button>Download CV</button>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <section class="skils section" id="skils">
+            <h2 class="section__title" data-heading="My Abilities">My Experience</h2>
+            <div class="skils__container container grid">
+                <div class="skils__tabs">
+                    <div class="skils_header skils__active" data-target="#frontend">
+                        <i class="uil uil-brackets-curly skils__icon"></i>
+                        <div>
+                            <h1 class="skils__title">Frontend Developer</h1>
+                            <span class="skils__subtitle">More than 2 years</span>
+                        </div>
+                        <i class="uil uil-angle-down skils__arrow"></i>
+                    </div>
+                    <div class="skils_header" data-target="#backend">
+                        <i class="uil uil-server-network skils__icon"></i>
+                        <div>
+                            <h1 class="skils__title">Backend Developer</h1>
+                            <span class="skils__subtitle">More than 11 Months</span>
+                        </div>
+                        <i class="uil uil-angle-down skils__arrow"></i>
+                    </div>
+                </div>
+                <div class="skils_content">
+                    <div class="skils__group skils__active" data-content id="frontend">
+                        <div class="skils__list grid">
+                            <div class="skils__data">
+                                <div class="skils__titles">
+                                    <h3 class="skils__name">HTML</h3>
+                                    <span class="skils__number">90%</span>
+                                </div>
+                                <div class="skils__bar">
+                                    <span class="skils_percentage" style="width: 90%;"></span>
+                                </div>
+                            </div>
+                            <div class="skils__data">
+                                <div class="skils__titles">
+                                    <h3 class="skils__name">CSS</h3>
+                                    <span class="skils__number">85%</span>
+                                </div>
+                                <div class="skils__bar">
+                                    <span class="skils_percentage" style="width: 85%;"></span>
+                                </div>
+                            </div>
+                            <div class="skils__data">
+                                <div class="skils__titles">
+                                    <h3 class="skils__name">JavaScript</h3>
+                                    <span class="skils__number">70%</span>
+                                </div>
+                                <div class="skils__bar">
+                                    <span class="skils_percentage" style="width: 70%;"></span>
+                                </div>
+                            </div>
+                            <div class="skils__data">
+                                <div class="skils__titles">
+                                    <h3 class="skils__name">ReactJs</h3>
+                                    <span class="skils__number">70%</span>
+                                </div>
+                                <div class="skils__bar">
+                                    <span class="skils_percentage" style="width: 70%;"></span>
+                                </div>
+                            </div>
+                            <div class="skils__data">
+                                <div class="skils__titles">
+                                    <h3 class="skils__name">TaildWindCSS</h3>
+                                    <span class="skils__number">40%</span>
+                                </div>
+                                <div class="skils__bar">
+                                    <span class="skils_percentage" style="width: 40%;"></span>
+                                </div>
+                            </div>
+                            <div class="skils__data">
+                                <div class="skils__titles">
+                                    <h3 class="skils__name">NextJs</h3>
+                                    <span class="skils__number">30%</span>
+                                </div>
+                                <div class="skils__bar">
+                                    <span class="skils_percentage" style="width: 30%;"></span>
+                                </div>
+                            </div>
+                            <div class="skils__data">
+                                <div class="skils__titles">
+                                    <h3 class="skils__name">TypeScript</h3>
+                                    <span class="skils__number">50%</span>
+                                </div>
+                                <div class="skils__bar">
+                                    <span class="skils_percentage" style="width: 50%;"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skils__group" data-content id="backend">
+                        <div class="skils__list grid">
+                            <div class="skils__data">
+                                <div class="skils__titles">
+                                    <h3 class="skils__name">NodeJs</h3>
+                                    <span class="skils__number">70%</span>
+                                </div>
+                                <div class="skils__bar">
+                                    <span class="skils_percentage" style="width: 70%;"></span>
+                                </div>
+                            </div>
+                            <div class="skils__data">
+                                <div class="skils__titles">
+                                    <h3 class="skils__name">MySql</h3>
+                                    <span class="skils__number">60%</span>
+                                </div>
+                                <div class="skils__bar">
+                                    <span class="skils_percentage" style="width: 60%;"></span>
+                                </div>
+                            </div>
+                            <div class="skils__data">
+                                <div class="skils__titles">
+                                    <h3 class="skils__name">MongoDb</h3>
+                                    <span class="skils__number">60%</span>
+                                </div>
+                                <div class="skils__bar">
+                                    <span class="skils_percentage" style="width: 60%;"></span>
+                                </div>
+                            </div>
+                            <div class="skils__data">
+                                <div class="skils__titles">
+                                    <h3 class="skils__name">PHP</h3>
+                                    <span class="skils__number">40%</span>
+                                </div>
+                                <div class="skils__bar">
+                                    <span class="skils_percentage" style="width: 40%;"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <h1  class="section__title" data-heading="That is what I like" style="margin-top: 50px;">My Hobbies</h1>
+        <section class="hobbies" id="hobbies">            
+            <div class="hobbies__box">
+                <div class="hobbies__icon" style="--i:#E5442E">
+                    <img src="images/anime.png" alt="">
+                </div>
+                <div class="hobbies__content">
+                    <h2>Watch Anime</h2>
+                    <p>I like to watch anime in the afternoon, it is entertaining to see all kinds of stories and little by little I am learning new words in Japanese</p>
+                </div>
+            </div>
+            <div class="hobbies__box">
+                <div class="hobbies__icon" style="--i:#C33E00">
+                    <img src="images/manga.png" alt="">
+                </div>
+                <div class="hobbies__content">
+                    <h2>Read Manga</h2>
+                    <p>Also, like anime, I like to read manga, which is a Japanese reading of the same stories and new ones from Japanese series.</p>
+                </div>
+            </div>
+            <div class="hobbies__box">
+                <div class="hobbies__icon" style="--i:#B41600">
+                    <img src="images/videojuego.png" alt="">
+                </div>
+                <div class="hobbies__content">
+                    <h2>Playing video games</h2>
+                    <p>Videogames is one of my biggest hobbies, after a day of work and/or study, I like to distract myself by playing with friends</p>
+                </div>
+            </div>
+            <div class="hobbies__box">
+                <div class="hobbies__icon" style="--i:#BFA200">
+                    <img src="images/codigo.png" alt="">
+                </div>
+                <div class="hobbies__content">
+                    <h2>Create New Projects</h2>
+                    <p>Currently I spend my afternoons learning new technologies and practicing with them creating new projects</p>
+                </div>
+            </div>
+            <div class="hobbies__box">
+                <div class="hobbies__icon" style="--i:#0A9815">
+                    <img src="images/modelado-3d.png" alt="">
+                </div>
+                <div class="hobbies__content">
+                    <h2>3d Modeling</h2>
+                    <p>Not long ago I bought a blender course for the creation of 3d models, I haven't followed it much given my time doing programming courses</p>
+                </div>
+            </div>
+            <div class="hobbies__box">
+                <div class="hobbies__icon" style="--i:#0D7E66">
+                    <img src="images/videojuego-p.png" alt="">
+                </div>
+                <div class="hobbies__content">
+                    <h2>Videogame Programming</h2>
+                    <p>I am in a long-term project working on a mystery video game, I hope you will see it soon</p>
+                </div>
+            </div>
+        </section>
+        <h1  class="section__title" data-heading="My Education" style="margin-top: 50px;">My Experience</h1>
+        <section class="formation" id="formation">
+            <main class="formation__row">
+                <section class="formation__col">
+                    <div class="formation__col-title">
+                        <h2>Education</h2>
+                    </div>
+                    <div class="formation__col_contents">
+                        <div class="formation__col_contents-box">
+                            <h4>2014 - 2017</h4>
+                            <h3>Centro de Bachillerato Tecnológico Industrial y de Servicios No.62</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quos necessitatibus quia molestias ducimus magni inventore ipsam asperiores suscipit aliquid?</p>
+                        </div>
+                        <div class="formation__col_contents-box">
+                            <h4>2017 - 2021</h4>
+                            <h3>Universidad Autonoma de Baja California Sur</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quos necessitatibus quia molestias ducimus magni inventore ipsam asperiores suscipit aliquid?</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="formation__col">
+                    <div class="formation__col-title">
+                        <h2>Experience</h2>
+                    </div>
+                    <div class="formation__col_contents">
+                        <div class="formation__col_contents-box">
+                            <h4>2014 - 2017</h4>
+                            <h3>Cinepolis</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quos necessitatibus quia molestias ducimus magni inventore ipsam asperiores suscipit aliquid?</p>
+                        </div>
+                        <div class="formation__col_contents-box">
+                            <h4>2022 - 2022</h4>
+                            <h3>Grupo Diaz Alvarez</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quos necessitatibus quia molestias ducimus magni inventore ipsam asperiores suscipit aliquid?</p>
+                        </div>
+                        <div class="formation__col_contents-box">
+                            <h4>2022 - 2022</h4>
+                            <h3>Tata Consultancy Services S.A. de C.V.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quos necessitatibus quia molestias ducimus magni inventore ipsam asperiores suscipit aliquid?</p>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </section>
+        <h1  class="section__title" data-heading="My Knowledge">My Projects</h1>
+        <section class="projects" id="projects">            
+            <div class="projects__row">
+                <div class="projects__image">
+                    <img src="images/photo_2023-07-06_21-38-24.jpg" alt="">
+                    <div class="projects__image-details">
+                        <h2>
+                            Trello Clone
+                            <span>Next Js</span>
+                        </h2>
+                        <p>First test with NextJs and TypeScript</p>
+                        <div class="projects__image-more">
+                            <div>
+                                <iconify-icon icon="simple-icons:typescript" style="color: #007acc;"></iconify-icon>
+                                <iconify-icon icon="devicon:nextjs"></iconify-icon>
+                                <iconify-icon icon="vscode-icons:file-type-css" style="color: #007acc;"></iconify-icon>
+                            </div>
+                            <div class="projects__image-more_icon-links">
+                                <a href="https://github.com/KatzuneStarky/trello-clone" rel="noopener" target="_blank" aria-label="View in github">
+                                    <i class="uil uil-github"></i>
+                                </a>
+                                <a href="katzunestarky.github.io/trello-clone/" target="_blank" rel="noopener" aria-label="View Demo">
+                                    <i class="uil uil-arrow"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projects__image">
+                    <img src="images/img1.png" alt="">
+                    <div class="projects__image-details">
+                        <h2>
+                            Ecommerce
+                            <span>- Stack MERN</span>
+                        </h2>
+                        <p>Development of an ecommerce with the MERN stack</p>
+                        <div class="projects__image-more">
+                            <div>
+                                <iconify-icon icon="skill-icons:mongodb"></iconify-icon>
+                                <iconify-icon icon="skill-icons:expressjs-dark"></iconify-icon>
+                                <iconify-icon icon="logos:react"></iconify-icon>
+                                <iconify-icon icon="devicon:nodejs"></iconify-icon>
+                                <iconify-icon icon="logos:javascript"></iconify-icon>                                
+                                <iconify-icon icon="vscode-icons:file-type-css"></iconify-icon>
+                            </div>
+                            <div class="projects__image-more_icon-links">
+                                <a href="https://github.com/KatzuneStarky/Ecommerce-MERN.git" rel="noopener" aria-label="View in github">
+                                    <i class="uil uil-github"></i>
+                                </a>
+                                <a href="#" target="_blank" rel="noopener" aria-label="View Demo">
+                                    <i class="uil uil-arrow"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projects__image">
+                    <img src="images/img2.png" alt="">
+                    <div class="projects__image-details">
+                        <h2>
+                            AluraLatam
+                            <span>Encryptor</span>
+                        </h2>
+                        <p>Word Scrambler for Oracle One Course</p>
+                        <div class="projects__image-more">
+                            <div>
+                                <iconify-icon icon="logos:html-5"></iconify-icon>                                                                
+                                <iconify-icon icon="vscode-icons:file-type-css"></iconify-icon>
+                                <iconify-icon icon="logos:javascript"></iconify-icon>                                
+                            </div>
+                            <div class="projects__image-more_icon-links">
+                                <a href="https://github.com/KatzuneStarky/Encriptador-Alura-LATAM" rel="noopener" aria-label="View in github">
+                                    <i class="uil uil-github"></i>
+                                </a>
+                                <a href="https://katzunestarky.github.io/Encriptador-Alura-LATAM/" target="_blank" rel="noopener" aria-label="View Demo">
+                                    <i class="uil uil-arrow"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projects__image">
+                    <img src="images/img3.png" alt="">
+                    <div class="projects__image-details">
+                        <h2>
+                            Calculator
+                            <span>App</span>
+                        </h2>
+                        <p>Basic JavaScript practice</p>
+                        <div class="projects__image-more">
+                            <div>
+                                <iconify-icon icon="logos:html-5"></iconify-icon>                                                                
+                                <iconify-icon icon="vscode-icons:file-type-css"></iconify-icon>
+                                <iconify-icon icon="logos:javascript"></iconify-icon>                                
+                            </div>
+                            <div class="projects__image-more_icon-links">
+                                <a href="https://github.com/KatzuneStarky/Calculator-app" rel="noopener" aria-label="View in github">
+                                    <i class="uil uil-github"></i>
+                                </a>
+                                <a href="https://calculator-app-nine-sandy.vercel.app" target="_blank" rel="noopener" aria-label="View Demo">
+                                    <i class="uil uil-arrow"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projects__image">
+                    <img src="images/img4.png" alt="">
+                    <div class="projects__image-details">
+                        <h2>
+                            Weather
+                            <span>App</span>
+                        </h2>
+                        <p>Basic JavaScript practice</p>
+                        <div class="projects__image-more">
+                            <div>
+                                <iconify-icon icon="logos:html-5"></iconify-icon>                                                                
+                                <iconify-icon icon="vscode-icons:file-type-css"></iconify-icon>
+                                <iconify-icon icon="logos:javascript"></iconify-icon>                                
+                            </div>
+                            <div class="projects__image-more_icon-links">
+                                <a href="https://github.com/KatzuneStarky/Weather-app" rel="noopener" aria-label="View in github">
+                                    <i class="uil uil-github"></i>
+                                </a>
+                                <a href="https://weather-app-gamma-weld.vercel.app" target="_blank" rel="noopener" aria-label="View Demo">
+                                    <i class="uil uil-arrow"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projects__image">
+                    <img src="images/img5.png" alt="">
+                    <div class="projects__image-details">
+                        <h2>
+                            Food
+                            <span>Delivery</span>
+                        </h2>
+                        <p>Using Redux in ReactJs</p>
+                        <div class="projects__image-more">
+                            <div>
+                                <iconify-icon icon="logos:react"></iconify-icon>
+                                <iconify-icon icon="skill-icons:redux"></iconify-icon>
+                                <iconify-icon icon="logos:html-5"></iconify-icon>                                                                
+                                <iconify-icon icon="vscode-icons:file-type-css"></iconify-icon>
+                                <iconify-icon icon="logos:javascript"></iconify-icon>                                
+                            </div>
+                            <div class="projects__image-more_icon-links">
+                                <a href="https://github.com/KatzuneStarky/pruebafooddelivery" rel="noopener" aria-label="View in github">
+                                    <i class="uil uil-github"></i>
+                                </a>
+                                <a href="https://pruebafooddelivery.vercel.app" target="_blank" rel="noopener" aria-label="View Demo">
+                                    <i class="uil uil-arrow"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ⁡⁣⁣⁢𝗦𝗰𝗿𝗶𝗽𝘁𝘀⁡ -->
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <script src="
+            https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/script/monochrome/bundle.min.js
+        "></script>
+        <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+        <script src="https://cdnjs.com/libraries/pdf.js"></script>
+        <script src="js/DayNight.js"></script>
+        <script src="js/TYpingText.js"></script>
+        <script src="js/Scroll.js"></script>
+        <script src="js/skills.js"></script>
+    </body>
+</html>

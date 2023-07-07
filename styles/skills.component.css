@@ -1,0 +1,86 @@
+.skils__container{
+    grid-template-columns: 360px 320px;
+    column-gap: 3rem;
+    justify-content: center;
+    transition: all .5s ease;
+}
+
+.skils_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.skils_header:not(:last-child){
+    margin-bottom: 2.5rem;
+}
+
+.skils__arrow,
+.skils__icon{
+    font-size: 2rem;
+    color: #333;
+    transition: all .5s ease;
+}
+
+.skils__icon{
+    margin-right: 0.75rem;
+}
+
+.skils__title{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.skils__subtitle{
+    font-size: 1rem;
+}
+
+.skils__arrow{
+    margin-left: auto;
+}
+
+.skils__list{
+    row-gap: 1.8rem;
+}
+
+.skils__titles{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skils__name{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.skils__bar,
+.skils_percentage{
+    height: 5px;
+    border-radius: .25rem;
+    transition: all .5s ease;
+}
+
+.skils__bar{
+    background-color: darkslategray;
+}
+
+.skils_percentage{
+    display: block;
+    background-color: darkturquoise;
+}
+
+.skils__active .skils__arrow{
+    transform: rotate(-90deg);
+    transition: .3s;
+}
+
+.skils [data-content]{
+    display: none;
+    transition: all .5s ease;
+}
+
+.skils__active[data-content]{
+    display: block;
+    transition: all .5s ease;
+}

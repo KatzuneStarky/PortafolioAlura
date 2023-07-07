@@ -1,0 +1,70 @@
+body.night,
+.skils.night,
+.banner.night,
+.aboutMe.night,
+.hobbies.night{
+    background-color: #333;
+}
+
+.banner.night header .logo,
+.banner.night .content__title,
+.banner.night .content__subtitle,
+.banner.night .content__text,
+.banner.night .content__button.chat,
+.banner.night .banner__social .banner__social-item a,
+.banner.night header .menu .menu__item .menu__item-link,
+.aboutMe.night .infoSection,
+.aboutMe.night .infoSection__title,
+.aboutMe.night .infoSection__subtitle,
+.aboutMe.night .infoSection__text,
+.aboutMe.night .infoSection__personalInfo-info span,
+.skils.night .skils__arrow,
+.skils.night .skils__icon,
+.skils.night{
+    color: #fff;
+    transition: 0.5s;
+}
+
+.banner.night .banner__social .banner__social-item a:hover{
+    color: #2196f3;
+}
+
+.hobbies.night .hobbies__box {
+    background-color: #fff;
+}
+
+.hobbies.night .hobbies__box .hobbies__content{
+    color: #333;
+}
+
+.dayNight{
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 60px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    color: #666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 2em;
+    transition: 0.5s;
+}
+
+.banner.night .dayNight{
+    background: #444;
+    counter-reset: #fff;
+}
+
+.dayNight ion-icon:nth-child(2),
+.banner.night .dayNight ion-icon:nth-child(1){
+    display: none;
+}
+
+.banner.night .dayNight ion-icon:nth-child(2){
+    display: block;
+}

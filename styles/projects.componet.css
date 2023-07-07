@@ -1,0 +1,127 @@
+.projects{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.projects__row{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.projects h1{
+    margin: 50px;
+}
+
+.projects__row .projects__image{
+    background: #96d3db;
+    position: relative;
+    flex: 1;
+    max-width: 460px;
+    height: 300px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.projects .projects__row .projects__image img{
+    opacity: 0.8;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    transition: 0.6s;
+    transition-property: opacity;
+}
+
+.projects .projects__row .projects__image:hover img{
+    opacity: 1;
+}
+
+.projects .projects__row .projects__image .projects__image-details{
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #000;
+    width: 100%;
+    height: 100%;
+}
+
+.projects .projects__row .projects__image:nth-child(2) .projects__image-details{
+    color: #fff;
+}
+
+.projects .projects__row .projects__image:nth-child(5) .projects__image-details{
+    color: #c2a2d8;
+}
+
+.projects .projects__row .projects__image .projects__image-details h2{
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 70px;
+    transition: .4s;
+    transition-property: transform;
+}
+
+.projects .projects__row .projects__image .projects__image-details h2 span{
+    font-weight: 900;
+}
+
+.projects .projects__row .projects__image:hover .projects__image-details h2{
+    transform: translateY(-30px);
+}
+
+.projects .projects__row .projects__image .projects__image-details p{
+    margin: 30px 30px 0px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    opacity: 0;
+    transition: .6s;
+    transition-property: opacity, transform;
+}
+
+.projects .projects__row .projects__image:hover .projects__image-details p{
+    opacity: 1;
+    transform: translateY(-40px);
+}
+
+.projects .projects__row .projects__image .projects__image-more{
+    position: absolute;
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    bottom: -60px;
+    transition: .6s;
+    transition-property: bottom;
+}
+
+.projects__image-more iconify-icon{
+    margin-right: 10px;
+    font-size: 20px;
+    opacity: 1;
+}
+
+.projects .projects__row .projects__image:hover .projects__image-more{
+    bottom: 0;
+}
+
+.projects__image-more .projects__image-more_icon-links i{
+    color:#fff;
+    font-size: 20px;
+}
+
+.projects__image-more .projects__image-more_icon-links a:not(:last-child) i{
+    margin-right: 20px;
+}
