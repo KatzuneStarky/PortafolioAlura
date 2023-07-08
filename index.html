@@ -15,8 +15,17 @@
         <link rel="stylesheet" href="styles/hobbies.component.css">
         <link rel="stylesheet" href="styles/formation.component.css">
         <link rel="stylesheet" href="styles/projects.componet.css">
+        <link rel="stylesheet" href="styles/contact.component.css">
         <link rel="stylesheet" href="styles/responsive.component.css">
         <link rel="stylesheet" href="styles/dayNight.component.css">
+        <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script>
+            (
+                function(){
+                    emailjs.init("p2fJQpADHS6h1KodU");
+                }
+            )();
+        </script>
     </head>
     <body>
         <!-- ⁡⁢⁣⁣𝗕𝗮𝗻𝗻𝗲𝗿 𝗦𝗲𝗰𝘁𝗶𝗼𝗻⁡ -->
@@ -56,7 +65,7 @@
                 </h2>
                 <p class="content__text">Software developer dedicated to the frontend area with ReactJs</p>
                 <a href="pages/pdfViewer.html" class="content__button">Curriculum</a>
-                <a class="content__button chat">
+                <a class="content__button chat" href="#contact">
                     <ion-icon name="chatbubbles"></ion-icon>
                     Let's chat
                 </a>
@@ -262,8 +271,8 @@
                 </div>
             </div>
         </section>
-        <h1  class="section__title" data-heading="That is what I like" style="margin-top: 50px;">My Hobbies</h1>
-        <section class="hobbies" id="hobbies">            
+        <h1 class="section__title" data-heading="That is what I like" style="margin-top: 50px;">My Hobbies</h1>
+        <section class="hobbies" id="hobbies">
             <div class="hobbies__box">
                 <div class="hobbies__icon" style="--i:#E5442E">
                     <img src="images/anime.png" alt="">
@@ -319,7 +328,7 @@
                 </div>
             </div>
         </section>
-        <h1  class="section__title" data-heading="My Education" style="margin-top: 50px;">My Experience</h1>
+        <h1 class="section__title" data-heading="My Education" style="margin-top: 50px;">My Experience</h1>
         <section class="formation" id="formation">
             <main class="formation__row">
                 <section class="formation__col">
@@ -363,8 +372,8 @@
                 </section>
             </main>
         </section>
-        <h1  class="section__title" data-heading="My Knowledge">My Projects</h1>
-        <section class="projects" id="projects">            
+        <h1 class="section__title" data-heading="My Knowledge">My Projects</h1>
+        <section class="projects" id="projects">
             <div class="projects__row">
                 <div class="projects__image">
                     <img src="images/photo_2023-07-06_21-38-24.jpg" alt="">
@@ -381,17 +390,26 @@
                                 <iconify-icon icon="vscode-icons:file-type-css" style="color: #007acc;"></iconify-icon>
                             </div>
                             <div class="projects__image-more_icon-links">
-                                <a href="https://github.com/KatzuneStarky/trello-clone" rel="noopener" target="_blank" aria-label="View in github">
+                                <a
+                                    href="https://github.com/KatzuneStarky/trello-clone"
+                                    rel="noopener"
+                                    target="_blank"
+                                    aria-label="View in github"
+                                >
                                     <i class="uil uil-github"></i>
                                 </a>
-                                <a href="katzunestarky.github.io/trello-clone/" target="_blank" rel="noopener" aria-label="View Demo">
+                                <a
+                                    href="katzunestarky.github.io/trello-clone/"
+                                    target="_blank"
+                                    rel="noopener"
+                                    aria-label="View Demo"
+                                >
                                     <i class="uil uil-arrow"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-
                 <div class="projects__image">
                     <img src="images/img1.png" alt="">
                     <div class="projects__image-details">
@@ -406,21 +424,25 @@
                                 <iconify-icon icon="skill-icons:expressjs-dark"></iconify-icon>
                                 <iconify-icon icon="logos:react"></iconify-icon>
                                 <iconify-icon icon="devicon:nodejs"></iconify-icon>
-                                <iconify-icon icon="logos:javascript"></iconify-icon>                                
+                                <iconify-icon icon="logos:javascript"></iconify-icon>
                                 <iconify-icon icon="vscode-icons:file-type-css"></iconify-icon>
                             </div>
                             <div class="projects__image-more_icon-links">
                                 <a href="https://github.com/KatzuneStarky/Ecommerce-MERN.git" rel="noopener" aria-label="View in github">
                                     <i class="uil uil-github"></i>
                                 </a>
-                                <a href="#" target="_blank" rel="noopener" aria-label="View Demo">
+                                <a
+                                    href="#"
+                                    target="_blank"
+                                    rel="noopener"
+                                    aria-label="View Demo"
+                                >
                                     <i class="uil uil-arrow"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-
                 <div class="projects__image">
                     <img src="images/img2.png" alt="">
                     <div class="projects__image-details">
@@ -431,22 +453,26 @@
                         <p>Word Scrambler for Oracle One Course</p>
                         <div class="projects__image-more">
                             <div>
-                                <iconify-icon icon="logos:html-5"></iconify-icon>                                                                
+                                <iconify-icon icon="logos:html-5"></iconify-icon>
                                 <iconify-icon icon="vscode-icons:file-type-css"></iconify-icon>
-                                <iconify-icon icon="logos:javascript"></iconify-icon>                                
+                                <iconify-icon icon="logos:javascript"></iconify-icon>
                             </div>
                             <div class="projects__image-more_icon-links">
                                 <a href="https://github.com/KatzuneStarky/Encriptador-Alura-LATAM" rel="noopener" aria-label="View in github">
                                     <i class="uil uil-github"></i>
                                 </a>
-                                <a href="https://katzunestarky.github.io/Encriptador-Alura-LATAM/" target="_blank" rel="noopener" aria-label="View Demo">
+                                <a
+                                    href="https://katzunestarky.github.io/Encriptador-Alura-LATAM/"
+                                    target="_blank"
+                                    rel="noopener"
+                                    aria-label="View Demo"
+                                >
                                     <i class="uil uil-arrow"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-
                 <div class="projects__image">
                     <img src="images/img3.png" alt="">
                     <div class="projects__image-details">
@@ -457,22 +483,26 @@
                         <p>Basic JavaScript practice</p>
                         <div class="projects__image-more">
                             <div>
-                                <iconify-icon icon="logos:html-5"></iconify-icon>                                                                
+                                <iconify-icon icon="logos:html-5"></iconify-icon>
                                 <iconify-icon icon="vscode-icons:file-type-css"></iconify-icon>
-                                <iconify-icon icon="logos:javascript"></iconify-icon>                                
+                                <iconify-icon icon="logos:javascript"></iconify-icon>
                             </div>
                             <div class="projects__image-more_icon-links">
                                 <a href="https://github.com/KatzuneStarky/Calculator-app" rel="noopener" aria-label="View in github">
                                     <i class="uil uil-github"></i>
                                 </a>
-                                <a href="https://calculator-app-nine-sandy.vercel.app" target="_blank" rel="noopener" aria-label="View Demo">
+                                <a
+                                    href="https://calculator-app-nine-sandy.vercel.app"
+                                    target="_blank"
+                                    rel="noopener"
+                                    aria-label="View Demo"
+                                >
                                     <i class="uil uil-arrow"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-
                 <div class="projects__image">
                     <img src="images/img4.png" alt="">
                     <div class="projects__image-details">
@@ -483,22 +513,26 @@
                         <p>Basic JavaScript practice</p>
                         <div class="projects__image-more">
                             <div>
-                                <iconify-icon icon="logos:html-5"></iconify-icon>                                                                
+                                <iconify-icon icon="logos:html-5"></iconify-icon>
                                 <iconify-icon icon="vscode-icons:file-type-css"></iconify-icon>
-                                <iconify-icon icon="logos:javascript"></iconify-icon>                                
+                                <iconify-icon icon="logos:javascript"></iconify-icon>
                             </div>
                             <div class="projects__image-more_icon-links">
                                 <a href="https://github.com/KatzuneStarky/Weather-app" rel="noopener" aria-label="View in github">
                                     <i class="uil uil-github"></i>
                                 </a>
-                                <a href="https://weather-app-gamma-weld.vercel.app" target="_blank" rel="noopener" aria-label="View Demo">
+                                <a
+                                    href="https://weather-app-gamma-weld.vercel.app"
+                                    target="_blank"
+                                    rel="noopener"
+                                    aria-label="View Demo"
+                                >
                                     <i class="uil uil-arrow"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-
                 <div class="projects__image">
                     <img src="images/img5.png" alt="">
                     <div class="projects__image-details">
@@ -511,20 +545,93 @@
                             <div>
                                 <iconify-icon icon="logos:react"></iconify-icon>
                                 <iconify-icon icon="skill-icons:redux"></iconify-icon>
-                                <iconify-icon icon="logos:html-5"></iconify-icon>                                                                
+                                <iconify-icon icon="logos:html-5"></iconify-icon>
                                 <iconify-icon icon="vscode-icons:file-type-css"></iconify-icon>
-                                <iconify-icon icon="logos:javascript"></iconify-icon>                                
+                                <iconify-icon icon="logos:javascript"></iconify-icon>
                             </div>
                             <div class="projects__image-more_icon-links">
                                 <a href="https://github.com/KatzuneStarky/pruebafooddelivery" rel="noopener" aria-label="View in github">
                                     <i class="uil uil-github"></i>
                                 </a>
-                                <a href="https://pruebafooddelivery.vercel.app" target="_blank" rel="noopener" aria-label="View Demo">
+                                <a
+                                    href="https://pruebafooddelivery.vercel.app"
+                                    target="_blank"
+                                    rel="noopener"
+                                    aria-label="View Demo"
+                                >
                                     <i class="uil uil-arrow"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="contact__item">
+                <div class="contact__contactDiv">
+                    <div class="contact__contactDiv-firstDiv">
+                        Let's get in touch
+                    </div>
+                    <lottie-player
+                        src="https://assets5.lottiefiles.com/packages/lf20_wbhpdrhp.json"
+                        background="transparent"
+                        speed="1"
+                        loop
+                        autoplay
+                        class="contact__contactDiv-image"
+                    ></lottie-player>
+                    <div class="contact__contactDiv-socialLinks">
+                        <span class="contact__contactDiv-secondText">Connect With Me:</span>
+                        <ul class="contact__social">
+                            <li class="contact__social-item">
+                                <a href="https://www.linkedin.com/in/adanramirezcinseros/" target="_blank" rel="noopener">
+                                    <ion-icon name="logo-linkedin"></ion-icon>
+                                </a>
+                            </li>
+                            <li class="contact__social-item">
+                                <a href="https://github.com/KatzuneStarky" target="_blank" rel="noopener">
+                                    <ion-icon name="logo-github"></ion-icon>
+                                </a>
+                            </li>
+                            <li class="contact__social-item">
+                                <a href="https://api.whatsapp.com/send?phone=6123050906" target="_blank" rel="noopener">
+                                    <ion-icon name="logo-whatsapp"></ion-icon>
+                                </a>
+                            </li>
+                            <li class="contact__social-item">
+                                <a href="https://www.facebook.com/KatzuneStarky/" rel="noopener" target="_blank">
+                                    <ion-icon name="logo-facebook"></ion-icon>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contact__submitForm">
+                    <h4 class="contact__submitForm-thirdText">Contact Me</h4>
+                    <form action="" class="contact__submitForm-form">
+                        <div class="contact__submitForm-inputBox">
+                            <input type="text" class="input" id="name" required>
+                            <label for="name">Name</label>
+                        </div>
+
+                        <div class="contact__submitForm-inputBox">
+                            <input type="text" class="input" id="email" required>
+                            <label for="email">Email</label>
+                        </div>
+
+                        <div class="contact__submitForm-inputBox">
+                            <input type="text" class="input" id="phone" required>
+                            <label for="phone">Phone</label>
+                        </div>
+
+                        <div class="contact__submitForm-inputBox">
+                            <textarea name="message" id="message" class="input" cols="30" rows="10" required></textarea>
+                            <label for="message">Message</label>
+                        </div>
+
+                        <input type="submit" value="Submit" id="send">
+                    </form>
                 </div>
             </div>
         </section>
@@ -541,5 +648,6 @@
         <script src="js/TYpingText.js"></script>
         <script src="js/Scroll.js"></script>
         <script src="js/skills.js"></script>
+        <script src="js/MailSend.js"></script>
     </body>
 </html>

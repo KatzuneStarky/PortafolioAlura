@@ -1,0 +1,158 @@
+.contact{
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.contact .contact__item{
+    width: 100%;
+    height: 550px;
+    max-width: 820px;
+    background-color: #8f50ec;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.4);
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.contact__contactDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact .contact__submitForm{
+    background-color: #f7f7f7;
+}
+
+.contact .contact__contactDiv .contact__contactDiv-firstDiv{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+}
+
+.contact .contact__contactDiv .contact__contactDiv-image{
+    height: 320px;
+    width: 320px;
+}
+
+.contact .contact__contactDiv .contact__social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.contact .contact__contactDiv .contact__social .contact__social-item{
+    padding-left: 15px;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.contact .contact__contactDiv .contact__social .contact__social-item ion-icon{
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.contact .contact__contactDiv .contact__social .contact__social-item ion-icon:hover{
+    background-color: #350a77;
+    color: #fff;
+}
+
+.contact .contact__contactDiv .contact__contactDiv-secondText{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 1rem;
+}
+
+.contact .contact__submitForm .contact__submitForm-thirdText{
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    color: #350a77;
+}
+
+.contact .contact__submitForm .contact__submitForm-form{
+    padding: 0px 50px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.contact .contact__submitForm .contact__submitForm-form .contact__submitForm-inputBox{
+    position: relative;
+    height: 40px;
+    width: 90%;
+    margin: 30px 0;
+}
+
+.contact .contact__submitForm .contact__submitForm-form .contact__submitForm-inputBox .input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid #350a77;
+    border-radius: 20px;
+    outline: none;
+    padding-left: 10px;
+    color: #333;
+    font-size: 16px;
+}
+
+.contact .contact__submitForm .contact__submitForm-form .contact__submitForm-inputBox label{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    padding-left: 10px;
+    transform: translateY(-50%);
+    font-size: 15px;
+    font-weight: 500;
+    color: #350a77;
+    transition: .3s;
+}
+
+.contact .contact__submitForm .contact__submitForm-form .contact__submitForm-inputBox .input:focus ~ label,
+.contact .contact__submitForm .contact__submitForm-form .contact__submitForm-inputBox .input:valid ~ label{
+    top: -1px;
+    left: 10px;
+    background-color: #fff;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.contact .contact__submitForm .contact__submitForm-form .contact__submitForm-inputBox textarea{
+    resize: none;
+    min-height: 150px;
+    overflow: auto;
+    padding-top: 10px;
+}
+
+.contact .contact__submitForm .contact__submitForm-form input[type="submit"]{
+    position: relative;
+    top: 100px;
+    background-color: #350a77;
+    outline: none;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    height: 45px;
+    width: 30%;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+}
